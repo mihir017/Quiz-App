@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="s"></div>
+    <div class="s r"></div>
+    <div class="container">
+        <!-- start section -->
+        <div class="start-section" id="start">
+            <h1 class="start-title">Are You ready?</h1>
+            <a href="#quiz" class="btn" id="start_quiz">Start Quiz</a>
+            <!-- <a href="#" class="btn" id="high_score">High Score<i class="fas fa-crown"></i></a> -->
+        </div>
+
+        <!-- Quiz-section -->
+        <div class="quiz-section" id="quiz">
+            <div class="heading">
+                <div class="heading-left">
+                    <h3 id="que_no"></h3>
+                    <div>
+                        <p class="progress-bar"></p>
+                    </div>
+                </div>
+                <div class="heading-right">
+                    <h3 class="score">Score:</h3>
+                    <p class="score-no"></p>
+                </div>
+            </div>
+            <div class="question">
+                <h2 class="que">Que. <span id="que"></span></h2>
+                <div class="choices">
+                    <h2>A.</h2>
+                    <p class="choice" data-number="1"></p>
+                </div>
+                <div class="choices">
+                    <h2>B.</h2>
+                    <p class="choice" data-number="2"></p>
+                </div>
+                <div class="choices">
+                    <h2>C.</h2>
+                    <p class="choice" data-number="3"></p>
+                </div>
+                <div class="choices">
+                    <h2>D.</h2>
+                    <p class="choice" data-number="4"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>

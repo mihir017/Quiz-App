@@ -1,0 +1,44 @@
+{
+    "questions":[
+        {
+            "question": "Which Country win the world cup 2011?",
+            "choice1":"Australia",
+            "choice2":"England",
+            "choice3":"India",
+            "choice4":"New Zeland",
+            "answer":"3"
+        },
+        {
+            "question": "Who is the Highest Run scorer in WC 2011?",
+            "choice1":"Yuvraj Shing",
+            "choice2":"Tillakaratne Dilshan",
+            "choice3":"kane Williumsion",
+            "choice4":"Sachin Tendulkar",
+            "answer":"2"
+        },
+        {
+            "question": "Which player has taken most catches in WC 2011?",
+            "choice1":"Ricky Ponting",
+            "choice2":"Zahir Khan",
+            "choice3":"Ms Dhoni",
+            "choice4":"Devid Miller",
+            "answer":"1"
+        },
+        {
+            "question": "Who is India's highest scorer in WC 2011?",
+            "choice1":"V Sehwag",
+            "choice2":"G Gambhir",
+            "choice3":"Yuvraj Singh",
+            "choice4":"SR Tendulkar",
+            "answer":"4"
+        },
+        {
+            "question": "What is the lowest score in WC 2011?",
+            "choice1":"75",
+            "choice2":"89",
+            "choice3":"77",
+            "choice4":"65",
+            "answer":"3"
+        }
+    ]
+}
